@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+.idea/*
+solvation_predictor/trained_models/
+venv
+data
+.DS_Store
+Model_predictions
+solvation_predictor/wandb/
+
+sample_files/wandb/
+
+sample_files/example_multi_solvent_pred/wandb/
+
+examples/
+
+wandb/
+
+MyOutput*/
+
+ModelPredictions*/
+
+*.log
+
+
+solubility_predictions_test.csv
