@@ -1,4 +1,4 @@
-# SolProp
+# SolProp_ML_mix
 The SolProp package contains a code that combines machine learning and thermodynamics for the prediction of solubility related properties, which now is being extended to mixture properties. To make the predictions using the package the neural network model weights are needed. The package including the model weights is available as a [conda package](https://anaconda.org/roelleenhouts/solprop_ml). The models in SolProp are trained with databases from the [Mixed solvent Gsolv data collection](https://zenodo.org/records/14238055), and [Solubility data collection](https://zenodo.org/record/5970538).
 
 ## Requirements
