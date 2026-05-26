@@ -16,7 +16,7 @@ SolProp_ML_mix has been tested on **macOS** and **Linux**. It may not work on Wi
 
 SolProp_ML_mix can be installed either from conda or directly from this repository. Both options require conda. If you do not have conda installed, download Miniconda from [https://conda.io/miniconda.html](https://conda.io/miniconda.html).
 
-A SolProp conda package is available here: (https://anaconda.org/channels/simonabuzzi/packages/solprop_ml_mix/overview)
+A SolProp conda package is available here: https://anaconda.org/channels/simonabuzzi/packages/solprop_ml_mix/overview
 
 ---
 
