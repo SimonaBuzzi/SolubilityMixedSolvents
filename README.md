@@ -1,45 +1,69 @@
 # SolProp_ML_mix
-The SolProp package contains a code that combines machine learning and thermodynamics for the prediction of solubility related properties, which now is being extended to mixture properties. To make the predictions using the package the neural network model weights are needed. The package including the model weights is available as a [conda package](https://anaconda.org/roelleenhouts/solprop_ml). The models in SolProp are trained with databases from the [Mixed solvent Gsolv data collection](https://zenodo.org/records/14238055), and [Solubility data collection](https://zenodo.org/record/5970538).
+
+SolProp_ML_mix is a software package that combines machine learning and thermodynamics for the prediction of solubility-related properties in solvent mixtures. Starting from the aqueous solubility of a compound, along with Abraham parameters and solvation free energy and enthalpy, the tool calculates the solubility of a solute in a given solvent or solvent mixture. Each of these properties is predicted by a dedicated machine learning model.
+
+Model weights for the solvation free energy/enthalpy model are bundled in the [conda package](https://anaconda.org/roelleenhouts/solprop_ml). The models are trained on the [Mixed Solvent Gsolv Data Collection](https://zenodo.org/records/14238055) and the [Solubility Data Collection](https://zenodo.org/record/5970538). Datasets for training the aqueous solubility model and Abraham parameters are available [here](https://pubs.acs.org/doi/full/10.1021/jacs.2c01768).
+
+---
 
 ## Requirements
-SolProp_ML has been so far tested to work on Mac and Linux OS. It may not work on Windows.
+
+SolProp_ML_mix has been tested on **macOS** and **Linux**. It may not work on Windows.
+
+---
 
 ## Installation
-SolProp can be installed from conda and source(i.e. directly from this git repo). Both options require conda, so first install for example Miniconda from [https://conda.io/miniconda.html](https://conda.io/miniconda.html).
 
-### Option 1:
-1. Create a conda environment based on Python 3.9 using "conda create --name myenv python=3.9"
-2. Activate the environment "conda activate myenv"
-3. Install the conda package: "conda install roelleenhouts::solprop_ml"
+SolProp_ML_mix can be installed either from conda or directly from this repository. Both options require conda. If you do not have conda installed, download Miniconda from [https://conda.io/miniconda.html](https://conda.io/miniconda.html).
 
-### Option 2:
-1. "git clone git@gitlab.kuleuven.be:creas/vermeiregroup/solprop.git"
-2. "cd solprop" ("solprop" is the path to where you cloned the git repository)
-3. "conda env create --name myenv python=3.9"
-4. "Activate the environment "conda activate myenv"
-5. Install the packages in requirements.txt
-7. Download the machine learning model weights from [here](https://zenodo.org/records/14238055).
-8. Copy the "SolPropmixExp" folder from the "ModelWeights" folder of the downloaded file and place them under "SolProp_ML/solvation_predictor/trained_models/"
+A SolProp conda package is available here: *(link to be added)*
 
-## Supported solvents and solutes
-SolProp_ML currently supports prediction for only electrically neutral solute compounds containing H, B, C, N, O, S, P, F, Cl, Br, and I and nonionic liquid solvents. Predictions for any out-of-range solvents and solutes won't be reliable.
+---
 
-## Example predictions files
-The definitions of prediction inputs and outputs are described in a sample python file. Please refer to the `.py` file located under "Solprop/sample_files/". Currently only the solvation free energy predictions in both pure and mixed solvents are available. Updates will come to include the predictions for solid solubility.
+## Supported Solutes and Solvents
+
+SolProp_ML_mix currently supports predictions for:
+
+- **Solutes:** Electrically neutral compounds containing H, B, C, N, O, S, P, F, Cl, Br, and I
+- **Solvents:** Nonionic liquid solvents
+
+> **Note:** Predictions for solutes or solvents outside of these specifications may not be reliable.
+
+---
+
+## Example Prediction Files
+
+Input and output definitions are described in sample Python files located under `SolProp/sample_files/`. Currently, only solvation free energy predictions in both pure and mixed solvents are available. Support for solid solubility predictions will be added in a future update.
+
+---
 
 ## How to Cite
-If you use this software for research, please cite the SolProp or mixture Gsolv paper (link to be added soon) as follows:
 
-Vermeire, F. H.; Chung, Y.; Green, W. H. Predicting Solubility Limits of Organic Solutes for a Wide Range of Solvents
-and Temperatures. https://pubs.acs.org/doi/full/10.1021/jacs.2c01768
-Leenhouts, R. J.; Morgan, N; Al Ibrahim, E; Green, W. H.; Vermeire F. H. Pooling solvent mixtures for solvation free energy predictions. https://arxiv.org/pdf/2412.01982
+If you use this software in your research, please cite the relevant papers:
 
-## License Information
-SolProp is a free, open-source software package distributed under the 
-[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode).
+**SolProp:**
+> Vermeire, F. H.; Chung, Y.; Green, W. H. Predicting Solubility Limits of Organic Solutes for a Wide Range of Solvents and Temperatures. *J. Am. Chem. Soc.* 2022. https://pubs.acs.org/doi/full/10.1021/jacs.2c01768
+
+**MolPool:**
+> Leenhouts, R. J.; Morgan, N.; Al Ibrahim, E.; Green, W. H.; Vermeire, F. H. Pooling Solvent Mixtures for Solvation Free Energy Predictions. *arXiv* 2024. https://arxiv.org/pdf/2412.01982
+
+**SolProp-mix:**
+> Buzzi, S.; Al Ibrahim, E.; Di Caprio, U.; et al. Predicting Solubility Curves in Solvent Mixtures Using Thermodynamic Cycles and Machine Learning. *ChemRxiv* 2026. https://doi.org/10.26434/chemrxiv.15003912/v1
+
+---
+
+## License
+
+SolProp_ML_mix is a free, open-source software package distributed under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) license.
+
+---
 
 ## Contact
-For any questions, please contact [Simona Buzzi](mailto:simona.buzzi@kuleuven.be) or [Roel Leenhouts](mailto:roel.leenhouts@kuleuven.be) 
+
+For questions or feedback, please contact:
+
+- [Simona Buzzi](mailto:simona.buzzi@kuleuven.be)
+- [Roel Leenhouts](mailto:roel.leenhouts@kuleuven.be)
 
 
 
