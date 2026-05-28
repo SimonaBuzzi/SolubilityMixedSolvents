@@ -1,8 +1,0 @@
-Metadata-Version: 2.1
-Name: solvation_predictor
-Version: 1.0
-Summary: Package to make solubility predictions with ML
-Home-page: https://github.com/fhvermei/SolPropML
-Author: Florence Vermeire, Yunsie Chung, William Green
-Author-email: florence.vermeire@ugent.be
-License: MIT
