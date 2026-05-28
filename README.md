@@ -14,6 +14,8 @@ This repository contains the code used in our work on predicting solubility of o
 ## Citation
 
 If you use SolProp-mix, please cite our work:
+**[Predicting solubility curves in solvent mixtures using thermodynamic cycles and machine learning](https://doi.org/10.26434/chemrxiv.15003912/v2)**
+Simona Buzzi, Emad Al Ibrahim, Ulderico Di Caprio, William H. Green, Florence Vermeire — *ChemRxiv*, 2026
 
 ```bibtex
 @article{Buzzi2026solubility,
