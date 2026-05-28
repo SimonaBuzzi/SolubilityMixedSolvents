@@ -1,10 +1,10 @@
-Predicting solubility curves in solvent mixtures using thermodynamic cycles and machine learning
+# Predicting solubility curves in solvent mixtures using thermodynamic cycles and machine learning
 
 <p align="center">
   <img src="TOC-3.png" width="700" alt="Table of Contents Figure"/>
 </p>
 
-This repository contains the code used in our work on predicting solubility of neutral organic compounds in binary solvent mixtures using machine learning.
+This repository contains the code used in our work on predicting solubility of organic compounds in binary solvent mixtures using machine learning.
 
 ## Contents
 
