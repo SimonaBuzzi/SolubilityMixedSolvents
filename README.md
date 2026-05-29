@@ -26,3 +26,9 @@ Simona Buzzi, Emad Al Ibrahim, Ulderico Di Caprio, William H. Green, Florence Ve
   doi     = {10.26434/chemrxiv.15003912/v2}
 }
 ```
+## Contact
+
+For questions or feedback, please contact:
+
+- [Simona Buzzi](mailto:simona.buzzi@kuleuven.be) 
+- [Roel Leenhouts](mailto:roel.leenhouts@kuleuven.be)
