@@ -2,7 +2,7 @@
 __pycache__/
 *.pyc
 .idea/*
-solvation_predictor/trained_models/
+# solvation_predictor/trained_models/
 venv
 data
 .DS_Store
