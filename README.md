@@ -31,4 +31,3 @@ Simona Buzzi, Emad Al Ibrahim, Ulderico Di Caprio, William H. Green, Florence Ve
 For questions or feedback, please contact:
 
 - [Simona Buzzi](mailto:simona.buzzi@kuleuven.be) 
-- [Roel Leenhouts](mailto:roel.leenhouts@kuleuven.be)
