@@ -9,7 +9,7 @@ This repository contains the code used in our work on predicting solubility of o
 ## Contents
 
 - **`SolProp_ML/`** — The SolProp-mix software tool used in this work along with the weights. See the README inside that folder for installation instructions.
-- **`DirectML/`** — Python scripts for Chemprop and fastsolv, both extended to handle mixed-solvent systems, along with the training data.
+- **`DirectML/`** — Python scripts for Chemprop and fastsolv, both extended to handle mixed-solvent systems, along with the training data and the weights of chemprop model.
 
 ## Citation
 
